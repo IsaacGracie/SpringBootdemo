@@ -22,10 +22,12 @@ Spring Boot 核心特点：
 
 
 REST API规范：
+
     路径：路径又称“终点”（endpoint），表示API的具体网址。
         在RESTful架构中，每个网址代表一种资源（resource），所以网址中不能有动词，只能有名词，而且所用的名词往往与数据库的表格名对应。
 
 Http 动词：
+
 GET（SELECT）：从服务器取出资源（一项或多项）。
 POST（CREATE）：在服务器新建一个资源。
 PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。
