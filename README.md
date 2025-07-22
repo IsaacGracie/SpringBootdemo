@@ -1,4 +1,5 @@
 Spring Boot 简介：
+
     Spring Boot 是一个基于 Spring 框架 的开源 Java 开发框架，旨在简化 Spring 应用的初始搭建和开发流程。它采用约定优于配置的原则，减少繁琐的 XML 配置，让开发者能够快速构建生产级的独立应用。  
 
 Spring Boot 核心特点：
@@ -31,15 +32,16 @@ PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）
 DELETE（DELETE）：从服务器删除资源。
 
 创建数据库表：
+
     建库语句：
-CREATE DATABASE test
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_general_ci;
+    CREATE DATABASE test
+      CHARACTER SET utf8mb4
+      COLLATE utf8mb4_general_ci;
   
     建表语句：
-CREATE TABLE student (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  age INT
-);
+    CREATE TABLE student (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      name VARCHAR(50) NOT NULL,
+      email VARCHAR(100) NOT NULL,
+      age INT
+    );
