@@ -3,7 +3,8 @@ Spring Boot 是一个基于 Spring 框架 的开源 Java 开发框架，旨在�
 
 Spring Boot 核心特点：
 
-简化配置： 
+简化配置：
+
 自动配置（Auto-configuration）：根据项目依赖自动配置 Spring 应用。  
 起步依赖（Starter Dependencies）：提供预定义的依赖组合，避免手动管理版本冲突。
 
@@ -33,12 +34,12 @@ DELETE（DELETE）：从服务器删除资源。
 
 创建数据库表：
 
-建库语句：
+    建库语句：
     CREATE DATABASE test
       CHARACTER SET utf8mb4
       COLLATE utf8mb4_general_ci;
   
-建表语句：
+    建表语句：
     CREATE TABLE student (
       id INT AUTO_INCREMENT PRIMARY KEY,
       name VARCHAR(50) NOT NULL,
